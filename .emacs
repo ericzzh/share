@@ -48,6 +48,7 @@
 (setenv "PATH" (concat "/usr/local/bin:" (getenv "PATH")))
 (add-to-list 'exec-path "/usr/local/bin")
 (show-paren-mode t)                 ;; parenthesis pair
+(delete-selection-mode t)
 
 ;; ===================================
 ;; FlyChecker
