@@ -49,7 +49,7 @@
 (add-to-list 'exec-path "/usr/local/bin")
 (show-paren-mode t)                 ;; parenthesis pair
 (delete-selection-mode t)
-(setq display-line-numbers t)
+(global-display-line-numbers-mode)
 (global-hl-line-mode)
 
 ;; ===================================
